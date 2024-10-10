@@ -17,6 +17,27 @@ console.log(`Para o ano que vem, o meu nome continuará ${nomeCompleto}, vou ter
 
 //Agência de Viagens
 
+console.log("🇧🇷🇦🇬◕🇦🇫🇩🇪🇩🇴🇪🇦🇪🇹🇯🇵🇲🇭");
+console.log("😎😎😎 LOGIN  😎😎😎");
+console.log("🇧🇷🇦🇬◕🇦🇫🇩🇪🇩🇴🇪🇦🇪🇹🇯🇵🇲🇭");
+
+const loginCerto = "Sam";
+const senhaCerta = 0986;
+
+var login = entrada("Digite o seu Login:");
+var senha = entrada("Digite a sua senha:");
+
+while(login != loginCerto) {
+  console.log("Usuário não encontrado");
+  login = entrada("Digite o seu Login novamente:");
+  senha = entrada("Digite a sua senha novamente:");
+};
+
+while(senha != senhaCerta) {
+  console.log("Senha incorreta");
+  senha = entrada("Digite a sua senha novamente:");
+};
+
 var nomeComprador = entrada("Qual o seu nome?");
 var cpfComprador = entrada("Qual o seu cpf?");
 var idadeComprador = entrada("Qual é a sua idade? ");
@@ -25,6 +46,7 @@ const listadeDestinos = new Array(
   " Berlim",
   " Las Vegas",
   " Gramado",
+  " Buenos Aires",
   " e Paris"
 );
 
